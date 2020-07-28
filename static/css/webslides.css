@@ -1310,7 +1310,8 @@ header,
   top: auto; }
 
 header[role='banner'] {
-  opacity: 0; }
+      background-color: #D3D3D3;
+  opacity: 0.8; }
   header[role='banner']:hover {
     opacity: 1; }
 
