@@ -1292,7 +1292,6 @@ header[role='banner'] img,
 footer img {
   height: 4rem;
   vertical-align: middle; }
-
 footer {
   position: relative; }
 
@@ -3306,9 +3305,10 @@ h1 span {
 /*=========================================
 Header/Nav
 =========================================== */
+/*
 header[role='banner'] {
   background-color: #fff; }
-
+*/
 .logo a {
   color: inherit; }
 
