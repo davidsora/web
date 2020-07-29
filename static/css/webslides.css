@@ -1310,7 +1310,11 @@ header,
   top: auto; }
 
 header[role='banner'] {
-      background-color: #D3D3D3;
+  background: rgb(65,65,65);
+background: linear-gradient(180deg, rgba(65,65,65,0.8634804263502276) 0%, rgba(0,0,0,0.4937325271905637) 35%, rgba(0,212,255,0) 100%);
+/*
+      background-image: linear-gradient(black, #f7f9fb;);
+      background-color: #333333;*/
   opacity: 0.8; }
   header[role='banner']:hover {
     opacity: 1; }
