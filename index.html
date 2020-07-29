@@ -3,6 +3,28 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript">let slide = $("#webslides");
+
+document.addEventListener('swiped-up', function (e) {
+    let max = Math.trunc(slide[0].scrollHeight);
+    let offset = Math.trunc(slide[0].offsetHeight);
+    let position = Math.trunc(slide.scrollTop());
+
+    if ((max - offset == position)) {
+        console.warn("next");
+        window.ws.goNext();
+    }
+});
+
+document.addEventListener('swiped-down', function (e) {
+    let position = Math.trunc(slide.scrollTop());
+
+    if (position == 0) {
+        console.warn("back");
+        window.ws.goPrev();
+    }
+});
+</script>
 
     <!-- CLEAN MARKUP = GOOD KARMA.
       Hi source code lover,
@@ -102,10 +124,10 @@
             </p>
             <p>
               <a href="https://www.linkedin.com/in/davidsora" class="button zoomIn" title="Linkedin">
-                <svg class="fa-cloud-download">
-                  <use xlink:href="#fa-cloud-download"></use>
+                <svg class="fab fa-linkedin">
+                  <use xlink:href="#fab fa-linkedin"></use>
                 </svg>
-                Visitez mon Linkedin.<i class="fa fa-linkedin-square" style="font-size:36px"></i>
+                Visitez mon Linkedin.<i class="fab fa-linkedin" style="font-size:36px"></i>
               </a>
             </p>
                 <p>
@@ -192,8 +214,8 @@
   </section>
         <section>
           <div class="wrap">
-            <h3>Jobs</h3>
-            <p><code>Experiencia laboral</code></p>
+            <h3>EXPERIENCIA LABORAL</h3>
+            <p><code></code></p>
             <ul class="flexblock activity">
               <li>
                 <a href="#" title="Ingeteam">
