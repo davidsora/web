@@ -1329,7 +1329,7 @@ background: linear-gradient(180deg, rgba(65,65,65,0.8634804263502276) 0%, rgba(0
 .logo {
   text-transform: lowercase; }
   .logo a {
-    background: url("../images/logos/logo.svg") no-repeat 0 0;
+    background: url("../images/logos/logo1.svg") no-repeat 0 0;
     background-size: 4.8rem;
     float: left;
     height: 4.8rem;
